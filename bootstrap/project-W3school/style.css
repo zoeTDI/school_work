@@ -1,0 +1,14 @@
+* {
+    outline: 1px solid #000;
+}
+
+.col {
+    margin: 15px 0;
+}
+.banner {
+    height: 200px;
+}
+
+.foot .col{
+    text-align: center;
+}
