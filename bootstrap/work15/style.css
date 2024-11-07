@@ -1,0 +1,16 @@
+body {
+  padding-top: 20px;
+}
+
+.wh {
+  width           : 60px;
+  height          : 60px;
+  background-color: #efefef;
+  float           : left;
+  margiN          : 10px;
+}
+
+img {
+  width : 60px;
+  height: 60px;
+}
