@@ -1,0 +1,13 @@
+.mynav a {
+  letter-spacing: .5rem;
+  display: block;
+  margin: 0;
+}
+.mynav li {
+  padding: 0rem;
+}
+.mynav li a:hover {
+  text-decoration: none;
+  background-color: #bc050a;
+  color: #f7f7f7 !important;
+}
