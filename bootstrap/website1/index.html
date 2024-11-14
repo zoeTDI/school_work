@@ -2,7 +2,7 @@
  * @Author: zoeTDI 1832400547@qq.com
  * @Date: 2024-11-14 16:27:28
  * @LastEditors: zoeTDI
- * @LastEditTime: 2024-11-14 16:27:33
+ * @LastEditTime: 2024-11-14 16:49:25
  * @Description: 
 -->
 <!DOCTYPE html>
@@ -14,11 +14,62 @@
     name="viewport"
     content="width=device-width, initial-scale=1.0"
   >
+  <link
+    rel="stylesheet"
+    href="../css/bootstrap.min.css"
+  >
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
   <title>Document</title>
+  <style>
+    * {
+      outline: 1px solid #aaa;
+      min-height: 10px;
+    }
+  </style>
 </head>
 
 <body>
-
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <nav class="nav nav-pills">
+          <a href="#">你的名字</a>
+          <a href="#">首页</a>
+          <a href="#">分类</a>
+          <a href="#">联系</a>
+        </nav>
+      </div>
+    </div>
+    <div class="row banner">
+      <div class="col">
+        <img
+          src="image.png"
+          alt="展示图"
+        >
+      </div>
+    </div>
+    <div
+      class="row"
+      id="content"
+    >
+      <div class="col-3">
+        <img
+          src="./image copy.png"
+          alt="海报"
+        >
+      </div>
+      <div class="col-9">
+        <h1>你的名字</h1>
+        <p>日本2016年新海诚执导的动画电影</p>
+        <p>《你的名字。》是新海诚执导，神木隆之介、上白石萌音担任主要配音，Comix Wave
+          Films制作的一部原创日本动画电影，于2016年8月26日在日本上映。中国大陆于2016年12月2日上映，2024年7月19日重映。影片讲述了男女高中生在梦中相遇，并寻找彼此的故事。中国大陆于2017年8月26日全网首播。
+        </p>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
