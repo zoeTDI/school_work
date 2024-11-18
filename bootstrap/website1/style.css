@@ -1,48 +1,65 @@
-/* 主体 */
-body {
-  background-color: white;
-}
-
-.container {
-  opacity: .8;
-}
-
-/* 导航栏 */
-nav {
-  display         : flex;
-  background-color: #BA311A;
-}
-
-nav a:nth-child(1) {
-  margin     : auto;
-  margin-left: 0;
-}
-
-nav a {
-  color  : white;
-  padding: .8em 1.2em;
-}
-
 /* 展示图 */
 .banner img {
   object-fit: cover;
   width     : 100%;
   max-height: 300px;
+  border    : 1px solid #aaa;
+  box-shadow: 0 0 10px #aaa;
 }
 
 /* 内容区域 */
-#content img {
+.content img {
   margin    : 1em auto;
   width     : auto;
   max-height: 328px;
   object-fit: cover;
+  border    : 1px solid #aaa;
+  box-shadow: 0 0 10px #aaa;
 }
 
-#content h1 {
+/* .content h1 {
   margin-top  : .8em;
   padding-left: .5em;
   line-height : 1.8em;
   color       : #33BAE7;
   font-weight : bold;
+} */
 
+.content h2 {
+  display         : block;
+  margin-top      : 8px;
+  width           : 100%;
+  text-align      : center;
+  background-color: #33BAE7;
+  border          : 1px solid #aaa;
+  box-shadow      : 0 0 10px #aaa;
+}
+
+.content h3 {
+  display         : block;
+  margin-top      : 8px;
+  width           : 100%;
+  text-align      : center;
+  background-color: #33BAE7;
+  border          : 1px solid #aaa;
+  box-shadow      : 0 0 10px #aaa;
+}
+
+.content p {
+  text-indent   : 2em;
+  line-height   : 2em;
+  margin        : .8em auto;
+  letter-spacing: 1px;
+}
+
+.character-body .row {
+  margin: 1em auto;
+}
+
+.title {
+  background-color: #36B0E2;
+  color           : white;
+  display         : flex;
+  flex-direction  : column;
+  justify-content : space-between;
 }
