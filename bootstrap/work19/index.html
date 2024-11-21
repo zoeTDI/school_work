@@ -1,0 +1,96 @@
+<!--
+ * @Author: zoeTDI 1832400547@qq.com
+ * @Date: 2024-11-21 17:10:43
+ * @LastEditors: zoeTDI
+ * @LastEditTime: 2024-11-21 17:26:10
+ * @Description: 
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <title>软件2301-丁志伟</title>
+  <style>
+    [class="col"] {
+      background-color: rgba(86, 61, 124, 0.15);
+      border: 1px solid rgba(86, 61, 124, 0.2);
+      ;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>嵌入案例</h1>
+  <div class="container">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe
+        src="http://www.baidu.com"
+        style="width: 800px;height: 400px;"
+      ></iframe>
+    </div>
+  </div>
+  <h1>定位案例</h1>
+  <div class="container">
+    <div class="row">
+      <div
+        class="col p-0"
+        style="height: 800px;"
+      >
+        <div class="position-static bg-info border border-success p-2">
+          正常流内容
+        </div>
+        <div
+          class="position-relative bg-primary border border-success"
+          style="left: 200px;"
+        >
+          相对正常位置右移
+        </div>
+        <div
+          class="position-fixed bg-light border border-success p-2"
+          style="top: 150px;left: 150px;"
+        >
+          相对浏览器定位
+        </div>
+        <div
+          class="position-sticky bg-light border border-success p-2"
+          style="top: 0px;"
+        >
+          混动窗口时，黏在顶部、底部、左边
+        </div>
+        <div class="position-absolute border-light border border-success p-2">
+          相对已定位的父级元素，决定定位，离顶部200px，离左边50px
+        </div>
+        <div class="fixed-bottom bg-light border border-success p-2">
+          固定在底部
+        </div>
+      </div>
+    </div>
+  </div>
+  <h1>阴影案例</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="shadow-none p-3 bg-light rounded">
+          无阴影
+        </div>
+        <div class="shadow-sm p-3 bg-light rounded">
+          小阴影
+        </div>
+        <div class="shadow p-3 bg-light rounded">
+          常规阴影
+        </div>
+        <div class="shadow-lg p-3 bg-light rounded">
+          大阴影
+        </div>
+
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
