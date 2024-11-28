@@ -1,0 +1,37 @@
+#header {
+  margin-top: 2em;
+}
+
+#header button {
+  margin          : .25em;
+  margin-right    : 1em;
+  background-color: rgb(118, 212, 255);
+  padding         : .4em;
+  border          : 1px solid rgb(113, 155, 174);
+  border-radius   : 8%;
+}
+
+#cover {
+  width   : 160px;
+  overflow: hidden;
+}
+
+#cover img {
+  width     : 100%;
+  object-fit: fill;
+}
+
+#one .card:nth-child(1) {
+  background-color: rgb(0, 110, 255);
+  color           : white;
+}
+
+#one .card:nth-child(2) {
+  background-color: rgb(3, 204, 74);
+  color           : white;
+}
+
+#one .card:nth-child(3) {
+  background-color: orange;
+  color           : white;
+}
