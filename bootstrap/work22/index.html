@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <title>软件2301-丁志伟</title>
+    <link rel="stylesheet"
+        href="../css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>实例 5 - 4</h2>
+        <form class="border bg-light p-3">
+            <div class="form-group">
+                <label for="username">账号</label>
+                <input type="text"
+                    name="username"
+                    id="username"
+                    class="form-control"
+                    placeholder="请输入你的邮箱或手机号">
+            </div>
+            <div class="form-group">
+                <label for="password">密码</label>
+                <input type="password"
+                    name="password"
+                    id="password"
+                    class="form-control"
+                    placeholder="请输入你的密码">
+                <small id="passwordHelpBlock"
+                    class="form-text text-muted">
+                    你的密码长度必须为 8~20 个字符，包含字母、数字、特殊字符中的 2 种
+                </small>
+            </div>
+            <div class="form-group">
+                <label for="usertype">用户类型</label>
+                <input type="text"
+                    name="usertype"
+                    id="usertype"
+                    class="form-control"
+                    placeholder="管理员（此处不可写）"
+                    readonly>
+            </div>
+            <div class="from-group">
+                <label for="color">设置颜色值</label>
+                <input type="range"
+                    name="color"
+                    max="255"
+                    min="0"
+                    value="50"
+                    id="color"
+                    class="from-control-range">
+            </div>
+            <div class="from-group">
+                <label for="upfile">上传文件</label>
+                <input type="file"
+                    name="filename"
+                    id="upfile"
+                    class="form-control-file">
+            </div>
+            <button type="submit"
+                class="btn btn-primary">
+                提交
+            </button>
+        </form>
+        <h2>实例 5-5</h2>
+        <hr>
+        <form class="border bg-light p-3">
+            <div class="from-group">
+                <label>入学年份</label>
+                <select class="form-control">
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                    <option value="2024">2024</option>
+                </select>
+            </div>
+            <from class="border bg-light p-3">
+                <div class="from-group">
+                    <label>选修课程</label>
+                    <select class="form-control"
+                        multiple="multiple">
+                        <option value="handwriting">书法</option>
+                        <option value="vocal">声乐</option>
+                        <option value="volleyball">排球</option>
+                        <option value="english">职业英语</option>
+                    </select>
+                </div>
+            </from>
+        </form>
+    </div>
+</body>
+
+</html>
